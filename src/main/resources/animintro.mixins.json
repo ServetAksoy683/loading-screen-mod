@@ -2,6 +2,12 @@
   "required": true,
   "package": "com.animintro.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": ["SplashOverlayMixin"],
+  "client": [
+    "SplashOverlayMixin",
+    "MinecraftClientMixin",
+    "ClickableWidgetMixin",
+    "ScreenMixin",
+    "EntryListWidgetMixin"
+  ],
   "injectors": { "defaultRequire": 1 }
 }
