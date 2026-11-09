@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "animintro",
+  "version": "${version}",
+  "name": "Animated Intro",
+  "description": "Replaces the plain Mojang loading screen with an animated intro.",
+  "environment": "client",
+  "mixins": ["animintro.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}

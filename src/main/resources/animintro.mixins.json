@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.animintro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["SplashOverlayMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
